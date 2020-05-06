@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'http://bad-news-api.decensor.yt';
+axios.defaults.baseURL = 'https://bad-news-api.decensor.yt';
 
 export default {
 

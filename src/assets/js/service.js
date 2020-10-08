@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://bad-news-api.decensor.yt';
+axios.defaults.baseURL = window.env.backendURL;
 
 export default {
 

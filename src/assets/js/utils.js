@@ -19,7 +19,7 @@ export default {
         if (weeks < 5) return `${weeks} ${weeks > 1 ? 'semaines' : 'semaine'}`;
 
         const months = Math.floor(days / 30);
-        if (months < 12) return 'mois';
+        if (months < 12) return `${months} mois`;
 
         const years = Math.floor(days / 365);
         return `${years} ${years > 1 ? 'ans' : 'an'}`;
